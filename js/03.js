@@ -9,12 +9,7 @@ if(word1 > word2){
     alert(valores[4] + " es mayor que " + valores[3])
 }
 
-if (typeof valores[1] === "number" && typeof valores[5] === "number") {
-    document.write(`Suma: ${valores[1] + valores[5]}` + "<br>")
-    document.write(`Resta: ${valores[1] - valores[5]}` + "<br>")
-    document.write(`Multiplicación: ${valores[1] * valores[5]}` + "<br>")
-    document.write(`División: ${valores[1] / valores[5]}` + "<br>")
-    document.write(`Módulo: ${valores[1] % valores[5]}` + "<br>")
-  } else {
-    document.write("Los elementos 1 y 5 no son números" + "<br>")
-  }
+document.write(`Suma: ${valores[1] + valores[5]}` + "<br>")
+document.write(`Resta: ${valores[1] - valores[5]}` + "<br>")
+document.write(`Multiplicación: ${valores[1] * valores[5]}` + "<br>")
+document.write(`División: ${valores[1] / valores[5]}` + "<br>")

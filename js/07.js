@@ -1,10 +1,9 @@
-const array = [1, 2, 3, 4, 5]
-document.write(sumarUno(array))
+const numArray = [1, 2, 3, 4, 5]
+document.write(sumOne(numArray))
 
-function sumarUno(array) {
-    for (let i = 0; i < array.length; i++) {
-      array[i] = array[i] + 1
-    }
-    return array
+function sumOne(numArray){
+  for(let i = 0; i < numArray.length; i++){
+      numArray[i] = numArray[i] + 1
   }
-  
+  return numArray
+}
